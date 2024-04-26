@@ -18,6 +18,7 @@ generateBtn.addEventListener("click", () => {
     image.innerHTML = `<div class="img">
       <img src="${qrCodeImageURL}" alt="QR Code" />
     </div>`;
+    input.value = "";
   }
 });
 
