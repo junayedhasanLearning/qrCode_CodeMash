@@ -21,7 +21,21 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-color: #31363f;
+  background-image: linear-gradient(
+    to right bottom,
+    #5bbcff,
+    #4ec1ff,
+    #41c5ff,
+    #33caff,
+    #23ceff,
+    #21ccff,
+    #20caff,
+    #1fc8ff,
+    #35bfff,
+    #49b6fd,
+    #5cadf9,
+    #6ea3f3
+  );
 }
 
 .container {
@@ -139,7 +153,7 @@ button {
 }
 
 .tost-notification {
-  background-color: #4793af;
+  background-color: #88ab8e;
   color: #fff;
   padding: 1.3rem 3.4rem;
   font-size: 1.4rem;
