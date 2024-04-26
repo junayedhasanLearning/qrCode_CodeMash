@@ -137,3 +137,42 @@ button {
     -o-transform: translateX(2px);
   }
 }
+
+.tost-notification {
+  background-color: #4793af;
+  color: #fff;
+  padding: 1.3rem 3.4rem;
+  font-size: 1.4rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 2.3rem;
+  right: 4rem;
+  animation: toast 2.5s ease infinite;
+  -webkit-animation: toast 2.5s ease infinite;
+  display: none;
+  & p {
+    font-weight: 500;
+    margin: 0 1.2rem;
+    text-transform: capitalize;
+  }
+}
+
+@keyframes toast {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
